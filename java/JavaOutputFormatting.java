@@ -6,9 +6,13 @@ public class JavaOutputFormatting {
         for (int i = 0; i <3; i++ ){
             String s1 = sc.next();
             int x = sc.nextInt();
+
+            // System.out.printf(format, arguments);
+            System.out.printf("f", arguments);
+            
+            }
         }
-        System.out.println("================================");
+        
 
     }
     
-}
