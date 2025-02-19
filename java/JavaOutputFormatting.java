@@ -7,8 +7,9 @@ public class JavaOutputFormatting {
             String s1 = sc.next();
             int x = sc.nextInt();
 
-            // System.out.printf(format, arguments);
-            System.out.printf("f", arguments);
+           
+            
+            System.out.printf("%-15s%03d%n", s1, x);
             
             }
         }
